@@ -9512,26 +9512,17 @@ h3 {
     border-color: #dee2e6;
   }
 }
-@font-face {
-  font-family: Flaticon;
-  src: url(../git_bootstrap_les_chefs/fonts/Flaticon.woff);
+.ecriture h1 {
+  font-family: "Courgette", cursive;
 }
-@font-face {
-  font-family: Flaticon2;
-  src: url(../git_bootstrap_les_chefs/fonts/fontawesome-webfont.woff);
-}
+
 .section {
-  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../git_bootstrap_les_chefs/images/banner1.jpg");
-  background-size: cover;
+  background: url("../git_bootstrap_les_chefs/images/bottom_decoration_img.png") repeat-x bottom, linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../git_bootstrap_les_chefs/images/banner1.jpg");
   height: 800px;
 }
 
 .bordernav {
   border-color: blue;
-}
-
-h1 {
-  font-family: "Flaticon2";
 }
 
 .bordures {
