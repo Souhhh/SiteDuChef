@@ -9532,7 +9532,7 @@ h3 {
 
 .section2 {
   background: url("../git_bootstrap_les_chefs/images/main_bg.jpg");
-  height: 1400px;
+  height: 1450px;
 }
 .section2 h1 {
   font-family: "Courgette", cursive;
@@ -9604,6 +9604,37 @@ h4 {
 
 .vide {
   padding-top: 160px;
+}
+
+.section4 {
+  background: url("../git_bootstrap_les_chefs/images/team_background.jpg");
+  height: 715px;
+}
+
+.section4 span {
+  font-family: "Courgette", cursive;
+  color: #dc3545;
+}
+.section4 h1 {
+  margin-top: 60px;
+  padding-top: 85px;
+}
+
+.borderchef {
+  border-bottom: solid 1px #ffffff8a;
+}
+
+.br6 {
+  padding-top: 35px;
+}
+
+.espacementchef {
+  margin-left: 60px;
+  margin-right: 60px;
+}
+
+.br7 {
+  margin-bottom: 80px;
 }
 
 /*# sourceMappingURL=style.css.map */
