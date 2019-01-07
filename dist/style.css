@@ -9568,7 +9568,7 @@ h3 {
   color: #ab2f2f;
 }
 
-h4 {
+.list-group > h4 {
   font-family: "Courgette", cursive;
 }
 
@@ -9635,6 +9635,37 @@ h4 {
 
 .br7 {
   margin-bottom: 80px;
+}
+
+.section5 {
+  background-image: url(../git_bootstrap_les_chefs/images/main_bg.jpg);
+  height: 1000px;
+  padding-top: 40px;
+}
+.section5 h1 {
+  margin-top: 40px;
+}
+
+.left2 {
+  padding-left: 65px;
+}
+
+.bgformulaire {
+  background-image: url(../git_bootstrap_les_chefs/images/book_table_bg.jpg);
+  height: 500px;
+}
+
+.arrondi {
+  border-radius: 15px;
+}
+
+.tel {
+  font-size: 25px;
+}
+
+.test {
+  border-radius: 10px;
+  font-size: 13px;
 }
 
 /*# sourceMappingURL=style.css.map */
