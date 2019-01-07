@@ -9730,4 +9730,17 @@ h3 {
   border: solid #e6e6e6 1px;
 }
 
+.section7 {
+  background: url("../git_bootstrap_les_chefs/images/main_bg.jpg");
+  height: 550px;
+}
+
+.icones {
+  font-size: 35px;
+}
+
+.colorhr {
+  background-color: white;
+}
+
 /*# sourceMappingURL=style.css.map */
