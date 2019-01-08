@@ -1,12 +1,12 @@
-@import "../node_modules/bootstrap/scss/bootstrap.scss"
-@import "../dist/style.css"
+@import "../../node_modules/bootstrap/scss/bootstrap.scss"
+@import "../public/style.css"
 
-.ecriture
+body
     h1
         font-family: 'Courgette', cursive
 
 .section
-    background: url("../git_bootstrap_les_chefs/images/bottom_decoration_img.png") repeat-x bottom, linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('../git_bootstrap_les_chefs/images/banner1.jpg')
+    background: url("../images/bottom_decoration_img.png") repeat-x bottom, linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('../images/banner1.jpg')
     height: 800px
 
 .bordernav
@@ -18,9 +18,13 @@
     border-bottom: solid #fff 1px
 
 .section2
-    background: url("../git_bootstrap_les_chefs/images/main_bg.jpg")
-    height: 1450px
-    h1
+    background: url("../images/main_bg.jpg")
+    height: 1415px
+    .col-2>.nav>a.nav-link
+        margin-bottom: 0
+        &.active i
+            color: #ab2f2f
+    h4
         font-family: 'Courgette', cursive
 
 .triangle2
@@ -39,13 +43,13 @@
 .points
     padding-top: 140px
 
-.coffee
-    font-size: 60px
-    color: #c7c2c2
+// .coffee
+//     font-size: 60px
+//     color: #c7c2c2
 
-.coffee2 
-    font-size: 55px
-    color: #ab2f2f
+// .coffee2 
+    // font-size: 55px
+    // color: #ab2f2f
 
 .list-group>h4
     font-family: 'Courgette', cursive
@@ -73,15 +77,25 @@
 .lignegrise2
     border-bottom: solid 1px #c7c2c2
 
-.BreakFast
-    border-right: solid 5px
-    border-right-color: #bf203a
+.menu
+    // border-right: solid 5px #000 !important
+    transition: ease .5s
+    i 
+        font-size: 60px
+        color: #c7c2c2  
+        transition: ease .4s
+    &:hover
+        border-right: solid 5px #bf203a !important
+        color: #bf203a !important
+        i
+            color: #bf203a  !important
+            
 
 .vide
     padding-top: 160px
 
 .section4
-    background: url("../git_bootstrap_les_chefs/images/team_background.jpg")
+    background: url("../images/team_background.jpg")
     height: 715px
 
 
@@ -89,7 +103,6 @@
     span
         font-family: 'Courgette', cursive
     h1
-        margin-top: 60px
         padding-top: 85px
     .marginchef
         margin-bottom: 80px
@@ -101,9 +114,8 @@
     margin-right: 60px
 
 
-
 .section5
-    background-image: url(../git_bootstrap_les_chefs/images/main_bg.jpg)
+    background-image: url(../images/main_bg.jpg)
     height: 1540px
     padding-top: 40px
     h1 
@@ -112,7 +124,7 @@
         padding-left: 65px
 
 .bgformulaire
-    background-image: url(../git_bootstrap_les_chefs/images/book_table_bg.jpg)
+    background-image: url(../images/book_table_bg.jpg)
     height: 500px
     .tel
         font-size: 25px   
@@ -146,13 +158,13 @@
         margin-top: -35px
 
 .section6
-    background-image: url(../git_bootstrap_les_chefs/images/testimonials_background.jpg)
+    background-image: url(../images/testimonials_background.jpg)
     height: 400px
     .bordurelorem
         border: solid #e6e6e6 1px
 
 .section7
-    background: url('../git_bootstrap_les_chefs/images/main_bg.jpg')
+    background: url('../images/main_bg.jpg')
     height: 550px
     .icones
         font-size: 35px
@@ -160,7 +172,7 @@
         background-color: white
 
 .footer
-    background: url("../git_bootstrap_les_chefs/images/footer_bottom_decoration_img.png") repeat-x top, url('../git_bootstrap_les_chefs/images/footer_background.jpg')
+    background: url("../images/footer_bottom_decoration_img.png") repeat-x top, url('../images/footer_background.jpg')
     height: 305px
     .fab 
         font-size: 20px
