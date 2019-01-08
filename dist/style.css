@@ -9618,28 +9618,22 @@ h3 {
 
 .section4 span {
   font-family: "Courgette", cursive;
-  color: #dc3545;
 }
 .section4 h1 {
   margin-top: 60px;
   padding-top: 85px;
+}
+.section4 .marginchef {
+  margin-bottom: 80px;
 }
 
 .borderchef {
   border-bottom: solid 1px #ffffff8a;
 }
 
-.br6 {
-  padding-top: 35px;
-}
-
 .espacementchef {
   margin-left: 60px;
   margin-right: 60px;
-}
-
-.br7 {
-  margin-bottom: 80px;
 }
 
 .section5 {
@@ -9650,8 +9644,7 @@ h3 {
 .section5 h1 {
   margin-top: 40px;
 }
-
-.left2 {
+.section5 .left2 {
   padding-left: 65px;
 }
 
@@ -9659,65 +9652,42 @@ h3 {
   background-image: url(../git_bootstrap_les_chefs/images/book_table_bg.jpg);
   height: 500px;
 }
+.bgformulaire .tel {
+  font-size: 25px;
+}
+.bgformulaire .intformulaire {
+  border-radius: 10px;
+  font-size: 13px;
+}
 
 .arrondi {
   border-radius: 15px;
 }
 
-.tel {
-  font-size: 25px;
-}
-
-.test {
-  border-radius: 10px;
-  font-size: 13px;
-}
-
-.bordureimgblog {
+.sectionblog .bordureimgblog {
   border: solid #e6e6e6 5px;
   width: 400px;
 }
-
-.stick {
+.sectionblog .stickgauche {
   margin-right: 31px;
   margin-left: 159px;
-  background-color: #dc3545 !important;
   margin-top: -35px;
 }
-
-.stickp {
-  margin-bottom: 0;
-}
-
-.lorem {
-  text-align: left;
+.sectionblog .textgauche {
   margin-left: 160px;
   margin-right: 12px;
-  margin-bottom: 0;
   margin-top: 10px;
 }
-
-.lorem2 {
-  text-align: left;
+.sectionblog .textdroite {
   margin-left: 34px;
-  margin-bottom: 0;
-  margin-top: 10px;
   margin-right: 125px;
 }
-
-.taillechiffre {
+.sectionblog .taillechiffre {
   font-size: 25px;
 }
-
-.policelorem {
-  font-size: 14px;
-  color: #696767;
-}
-
-.stick2 {
+.sectionblog .stickdroite {
   margin-right: 163px;
   margin-left: 33px;
-  background-color: #dc3545 !important;
   margin-top: -35px;
 }
 
@@ -9725,8 +9695,7 @@ h3 {
   background-image: url(../git_bootstrap_les_chefs/images/testimonials_background.jpg);
   height: 400px;
 }
-
-.bordurelorem {
+.section6 .bordurelorem {
   border: solid #e6e6e6 1px;
 }
 
@@ -9734,13 +9703,29 @@ h3 {
   background: url("../git_bootstrap_les_chefs/images/main_bg.jpg");
   height: 550px;
 }
-
-.icones {
+.section7 .icones {
   font-size: 35px;
 }
-
-.colorhr {
+.section7 .colorhr {
   background-color: white;
+}
+
+.footer {
+  background: url("../git_bootstrap_les_chefs/images/footer_bottom_decoration_img.png") repeat-x top, url("../git_bootstrap_les_chefs/images/footer_background.jpg");
+  height: 305px;
+}
+.footer .fab {
+  font-size: 20px;
+}
+.footer img {
+  width: 65px;
+}
+
+.footer .btn {
+  border-color: white;
+}
+.footer span {
+  font-size: 13px;
 }
 
 /*# sourceMappingURL=style.css.map */
