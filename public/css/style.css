@@ -9512,6 +9512,10 @@ h3 {
     border-color: #dee2e6;
   }
 }
+@font-face {
+  font-family: Courgette;
+  src: url("../fonts/Courgette/Courgette-Regular.ttf");
+}
 body h1 {
   font-family: "Courgette", cursive;
 }
